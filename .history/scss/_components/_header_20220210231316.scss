@@ -1,0 +1,17 @@
+.c-banner {
+  background-image: url(./assets/images/banner.jpg);
+  @include backgroundImage;
+  height: 100vh;
+
+  &__wrapper {
+    position: relative;
+    padding-top: 30px;
+    // padding: 30px 5px 0 5px;
+  }
+}
+
+.c-slogan {
+  position: absolute;
+  top: 400px;
+  left: 5px;
+}

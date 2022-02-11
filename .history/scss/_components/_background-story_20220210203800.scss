@@ -1,0 +1,27 @@
+.c-background-story {
+  background-image: url(./assets/images/eclipse-horse.jpg);
+  @include backgroundImage;
+  // height: 100vh;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    color: $c-white-darker;
+    padding: 60px 15px;
+  }
+
+  &__position {
+    width: 57%;
+    text-align: center;
+    align-self: flex-end;
+  }
+
+  &__info {
+    font-weight: $fw-light;
+    font-size: em(20);
+    margin-bottom: 30px;
+  }
+
+  &__slogan {
+  }
+}

@@ -1,0 +1,47 @@
+// Config
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  max-width: 1920px;
+  font-family: $f-roboto;
+  // position: relative;
+  font-size: $fs-base + px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: em(50);
+}
+
+h3 {
+  font-size: em(35);
+}
+
+h4 {
+  font-size: em(30);
+}
+
+.block-size {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+// Main styles
+@import "./_elements/index";
+@import "./_components/index";

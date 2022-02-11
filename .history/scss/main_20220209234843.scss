@@ -1,0 +1,51 @@
+// Config
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $fs-base + px;
+  font-family: $f-roboto;
+  min-width: 320px;
+  max-width: 1920px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.block-size {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+// Main styles
+@import "./_components/index";
+@import "./_elements/index";
+
+.container {
+  height: 2000px;
+  background-color: silver;
+}
+
+.block {
+  background: green;
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+.block::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  border: 10px solid transparent;
+  border-left: 20px solid red;
+}

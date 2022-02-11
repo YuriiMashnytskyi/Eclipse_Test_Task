@@ -1,0 +1,23 @@
+// Config
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.block-size {
+  margin: 0 auto;
+  max-width: 1200 px;
+}
+
+// Main styles
+@import "./_components/index";
+@import "./_elements/index";

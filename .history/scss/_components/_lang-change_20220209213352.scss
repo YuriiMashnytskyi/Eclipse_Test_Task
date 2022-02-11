@@ -1,0 +1,35 @@
+.c-lang-change {
+  font-weight: $fw-light;
+  font-weight: $fw-normal;
+
+  &__btn {
+    text-decoration: none;
+    margin-right: 8px;
+
+    &:last-child {
+      margin-left: 0;
+    }
+
+    &:link {
+      color: $c-light-gray;
+    }
+
+    &:visited {
+      color: $c-light-gray;
+    }
+
+    &:hover {
+      color: $c-white;
+      font-weight: $fw-bold;
+    }
+
+    &:focus {
+      color: $c-white;
+      font-weight: $fw-bold;
+    }
+    &:active {
+      color: $c-white;
+      font-weight: $fw-bold;
+    }
+  }
+}

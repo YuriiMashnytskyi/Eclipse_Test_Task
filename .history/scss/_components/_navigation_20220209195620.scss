@@ -1,0 +1,11 @@
+.e-navigation {
+  // display: flex;
+  // flex-direction: row;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    &__item {
+    }
+  }
+}

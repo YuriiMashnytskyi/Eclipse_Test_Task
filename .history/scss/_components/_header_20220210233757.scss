@@ -1,0 +1,37 @@
+// .c-header {
+//   &__wrapper {
+//   }
+// }
+
+.c-banner {
+  background-image: url(./assets/images/banner.jpg);
+  @include backgroundImage;
+  height: 100vh;
+  &__wrapper {
+    position: relative;
+    padding-top: 30px;
+    // height: 100vh;
+  }
+}
+
+.c-slogan {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  color: $c-red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: $fw-bold;
+  }
+  &__1st-subtitle {
+    font-size: em(22);
+    font-weight: bold;
+  }
+  &__2nd-subtitle {
+    font-size: em(30);
+    font-weight: $fw-light;
+  }
+}

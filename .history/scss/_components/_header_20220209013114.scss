@@ -1,0 +1,7 @@
+.c-header {
+  &__banner {
+    height: 100vh;
+    @include backgroundImage;
+    background-image: url(./assets/images/banner.jpg);
+  }
+}

@@ -1,0 +1,15 @@
+.c-lang-change {
+  font-weight: $fw-light;
+
+  &__btn {
+    text-decoration: none;
+    margin-right: 8px;
+    &:last-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      font-weight: $fw-bold;
+    }
+  }
+}

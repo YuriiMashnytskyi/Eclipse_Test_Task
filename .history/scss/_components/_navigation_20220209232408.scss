@@ -1,0 +1,16 @@
+.c-navigation {
+  position: sticky;
+  top: 0;
+}
+
+.c-nav {
+  // display: flex;
+  // flex-direction: row;
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    // &__item {
+    // }
+  }
+}

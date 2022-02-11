@@ -1,0 +1,60 @@
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/roboto-regular.eot");
+//   src: url("./assets/fonts/eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/woff2") format("woff2"),
+//     url("./assets/fonts/woff") format("woff"),
+//     url("./assets/fonts/ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/roboto-regular.eot");
+//   src: url("./assets/fonts/eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/woff2") format("woff2"),
+//     url("./assets/fonts/woff") format("woff"),
+//     url("./assets/fonts/ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/roboto-light.eot");
+//   src: url("./assets/fonts/roboto-light.eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/roboto-light.woff2") format("woff2"),
+//     url("./assets/fonts/roboto-light.woff") format("woff"),
+//     url("./assets/fonts/roboto-light.ttf") format("truetype");
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/roboto-medium.eot");
+//   src: url("./assets/fonts/roboto-medium.eot?#iefix")
+//       format("embedded-opentype"),
+//     url("./assets/fonts/roboto-medium.woff2") format("woff2"),
+//     url("./assets/fonts/roboto-medium.woff") format("woff"),
+//     url("./assets/fonts/roboto-medium.ttf") format("truetype");
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/roboto-bold.eot");
+//   src: url("./assets/fonts/eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/woff2") format("woff2"),
+//     url("./assets/fonts/woff") format("woff"),
+//     url("./assets/fonts/ttf") format("truetype");
+//   font-weight: bold;
+//   font-style: normal;
+// }
+
+@include font-face("Roboto", "Roboto-Regular", $fw-normal, normal);
+@include font-face("Roboto", "Roboto-Light", $fw-light, normal);
+
+@include font-face("Roboto", "Roboto-Bold", $fw-bold, normal);

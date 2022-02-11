@@ -1,0 +1,13 @@
+.c-header {
+  &__wrapper {
+    padding-top: 30px;
+  }
+  &__banner {
+    height: 100vh;
+    @include backgroundImage;
+    background-image: url(./assets/images/banner.jpg);
+  }
+  &__logo {
+    max-width: 160px;
+  }
+}

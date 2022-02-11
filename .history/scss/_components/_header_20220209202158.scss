@@ -1,0 +1,18 @@
+.c-content {
+  background-image: url(./assets/images/banner.jpg);
+  @include backgroundImage;
+  height: 100vh;
+  padding: 30px 5px 0 5px;
+
+  &__wrapper {
+    position: relative;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+  }
+}
+
+.c-logo {
+  max-width: 160px;
+  display: block;
+}

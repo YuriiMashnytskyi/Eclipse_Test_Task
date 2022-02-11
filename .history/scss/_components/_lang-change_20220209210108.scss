@@ -1,0 +1,10 @@
+.c-lang-change {
+  font-weight: $fw-light;
+
+  &__btn {
+    text-decoration: none;
+    &:hover {
+      font-weight: $fw-bold;
+    }
+  }
+}

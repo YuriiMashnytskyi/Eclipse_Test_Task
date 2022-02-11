@@ -1,0 +1,22 @@
+.c-header {
+  // &__wrapper {
+  //   padding-top: 30px;
+  // }
+
+  &__banner {
+    // padding-top: 30px;
+    // padding-left: 5px;
+    // padding-right: 5px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 5px 0 5px;
+    height: 100vh;
+    @include backgroundImage;
+    background-image: url(./assets/images/banner.jpg);
+  }
+
+  &__logo {
+    max-width: 160px;
+    display: block;
+  }
+}

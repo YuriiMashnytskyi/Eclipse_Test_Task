@@ -1,0 +1,12 @@
+.c-background-story {
+  background-image: url(./assets/images/eclipse-horse.jpg);
+  @include backgroundImage;
+  // height: 100vh;
+
+  &__wrapper {
+    color: $c-white-darker;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

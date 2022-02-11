@@ -1,0 +1,27 @@
+.c-header-navigation {
+  // line-height: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.c-nav {
+  &__list {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    &__item {
+      // justify-content: center;
+      margin-right: 15px;
+    }
+    &__link {
+      color: $c-light-black;
+    }
+  }
+}
+
+.c-burger {
+  display: none;
+}

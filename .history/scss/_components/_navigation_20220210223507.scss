@@ -1,0 +1,14 @@
+.c-navigation {
+  display: flex;
+}
+
+.c-nav {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    &__item {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.e-navigation {
+  // display: flex;
+  // flex-direction: row;
+  &__list {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,9 @@
+@mixin backgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@function em($px) {
+  @return $px / $fs-base + em;
+}

@@ -1,0 +1,28 @@
+.c-header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.c-nav {
+  &__list {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    &__item {
+      margin-right: 15px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &__link {
+      color: $c-light-black;
+    }
+  }
+}
+
+.c-burger {
+  display: none;
+}

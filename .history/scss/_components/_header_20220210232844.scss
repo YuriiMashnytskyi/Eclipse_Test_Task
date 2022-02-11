@@ -1,0 +1,34 @@
+.c-header {
+  &__wrapper {
+    position: relative;
+  }
+}
+
+.c-banner {
+  background-image: url(./assets/images/banner.jpg);
+  @include backgroundImage;
+  height: 100vh;
+
+  &__wrapper {
+    padding-top: 30px;
+  }
+}
+
+.c-slogan {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  color: $c-red;
+
+  &__title {
+    font-weight: $fw-bold;
+  }
+  &__1st-subtitle {
+    font-size: em(22);
+    font-weight: bold;
+  }
+  &__2nd-subtitle {
+    font-size: em(30);
+    font-weight: $fw-light;
+  }
+}

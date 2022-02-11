@@ -1,0 +1,36 @@
+// Config
+@import "./variables";
+@import "./mixins";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  max-width: 1920px;
+  font-family: $f-roboto;
+  position: relative;
+  font-size: $fs-base + px;
+}
+
+img {
+  width: 100%;
+}
+
+.block-size {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+// Main styles
+@import "./_elements/index";
+@import "./_components/index";
+
+.container {
+  height: 2000px;
+  background-color: silver;
+}

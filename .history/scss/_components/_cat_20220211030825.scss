@@ -1,0 +1,33 @@
+.c-cat {
+  &__wrapper {
+    padding: 50px 15px;
+  }
+  &__title {
+    color: $c-red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    &__text-1 {
+      font-size: em(35);
+      font-weight: $fw-light;
+    }
+    &__text-2 {
+      font-weight: $fw-light;
+    }
+    &__text-3 {
+      font-size: em(30);
+      font-weight: $fw-bold;
+    }
+  }
+
+  &__info {
+    font-size: em(20);
+    color: $c-light-black;
+    font-weight: $fw-light;
+    margin-bottom: 20px;
+  }
+  &__info span {
+    color: $c-red;
+  }
+}

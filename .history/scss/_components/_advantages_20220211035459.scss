@@ -1,0 +1,14 @@
+.c-advantages {
+  &__wrapper {
+    padding: 50px 15px;
+  }
+
+  &__title {
+    color: $c-light-black;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
