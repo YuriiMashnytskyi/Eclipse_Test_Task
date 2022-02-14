@@ -1,0 +1,10 @@
+.e-btn {
+  display: block;
+  background-color: $c-red;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  & span {
+    color: $c-white;
+  }
+}

@@ -1,0 +1,28 @@
+.e-btn {
+  display: block;
+  background-color: $c-red;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(1, 1, 1, 0.75);
+  border-radius: 2px;
+  max-height: 40px;
+  width: 230px;
+
+  & span {
+    color: $c-white;
+    font-size: em(15);
+  }
+}
+
+.Rounded_Rectangle_7 {
+  background-color: rgb(203, 14, 23);
+  box-shadow: 0px 0px 5px 0px rgba(1, 1, 1, 0.75);
+  border-radius: 2px;
+  position: absolute;
+  left: 845px;
+  top: 2530px;
+  width: 230px;
+  height: 41px;
+  z-index: 290;
+}

@@ -1,0 +1,10 @@
+.c-recomendations {
+  &__title {
+    display: flex;
+    &__text {
+      &__percents {
+        display: block;
+      }
+    }
+  }
+}

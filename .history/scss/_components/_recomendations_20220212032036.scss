@@ -1,0 +1,14 @@
+.c-recomendations {
+  &__title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    &__percents {
+      display: block;
+    }
+    &__text {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.c-analysis {
+  &__title {
+    color: $c-red;
+    font-weight: $fw-light;
+    & h2 {
+      font-weight: $fw-light;
+    }
+  }
+}

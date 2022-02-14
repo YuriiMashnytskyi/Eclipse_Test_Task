@@ -1,0 +1,15 @@
+.c-recomendations {
+  &__title {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    &__percents {
+      display: inline-block;
+    }
+    &__text {
+      display: inline-block;
+    }
+  }
+}

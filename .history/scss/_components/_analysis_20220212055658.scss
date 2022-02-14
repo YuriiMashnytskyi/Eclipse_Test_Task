@@ -1,0 +1,23 @@
+.c-analysis {
+  &__title {
+    color: $c-red;
+    margin-bottom: 40px;
+    & h2 {
+      font-weight: $fw-light;
+    }
+    & h3 {
+      font-weight: $fw-light;
+    }
+  }
+  &__subtitle {
+    margin: 30px 0 40px 0;
+  }
+
+  &__item {
+    &__img {
+      & img {
+        max-width: 200px;
+      }
+    }
+  }
+}

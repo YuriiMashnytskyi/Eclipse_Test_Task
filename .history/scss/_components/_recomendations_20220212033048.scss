@@ -1,0 +1,27 @@
+.c-recomendations {
+  &__title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    line-height: 1;
+
+    &__percents {
+      display: inline-block;
+      margin-right: 50px;
+      font-size: em(130);
+      font-weight: $fw-light;
+    }
+    &__text {
+      display: inline-block;
+      font-weight: $fw-light;
+    }
+    &__text-1 {
+    }
+    &__text-2 {
+    }
+    &__text-3 {
+      font-weight: $fw-bold;
+    }
+  }
+}
