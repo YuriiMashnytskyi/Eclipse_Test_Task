@@ -1,0 +1,116 @@
+// .c-header {
+//   &__wrapper {
+//   }
+// }
+
+.c-banner {
+  position: relative;
+  // min-height: 100vh;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./assets/images/banner.jpg);
+    @include backgroundImage;
+    background-attachment: fixed;
+    // min-height: 100vh;
+    z-index: -25;
+  }
+
+  &__wrapper {
+    padding: 30px 15px 60px;
+    height: 100%;
+  }
+}
+
+.c-bottom-field {
+  display: flex;
+  justify-content: space-between;
+
+  &__info {
+    flex: 0 1 65%;
+  }
+  &__slogan {
+    color: $c-red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    user-select: none;
+    margin-bottom: 100px;
+
+    &__text-1 {
+      font-size: em(22);
+      font-weight: bold;
+    }
+    &__text-2 {
+      // font-size: em(30);
+      font-weight: $fw-light;
+    }
+    &__text-3 {
+      font-weight: $fw-bold;
+    }
+  }
+
+  &__stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    user-select: none;
+
+    &__item {
+      flex: 0 0 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 25px;
+
+      &__img {
+        margin-bottom: 15px;
+      }
+
+      &__text {
+        text-align: center;
+      }
+    }
+  }
+
+  &__express-order {
+    flex-basis: 30%;
+    position: relative;
+    min-height: 200px;
+
+    &__wrapper {
+      background-image: url(./assets/images/form-backgr-ver.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      padding: 50px 32px 30px;
+      width: 298px;
+      // min-height: 498px;
+      margin: 0 auto;
+      font-weight: $fw-light;
+    }
+    &__text {
+      font-size: em(15);
+      line-height: 23px;
+      text-align: start;
+      color: $c-light-black;
+      margin-bottom: 30px;
+    }
+    &__title {
+      font-size: em(22);
+      color: $c-red;
+      margin-bottom: 30px;
+    }
+
+    &__input {
+      outline: none;
+      overflow: auto;
+      white-space: nowrap;
+      font-weight: $fw-light;
+    }
+  }
+}

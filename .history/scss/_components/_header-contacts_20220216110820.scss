@@ -1,0 +1,16 @@
+.c-contacts {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+
+  &__title {
+    max-width: 500px;
+    text-transform: uppercase;
+    font-size: em(25);
+    text-align: end;
+  }
+
+  &__phone {
+    font-size: em(35);
+  }
+}

@@ -1,0 +1,31 @@
+.c-contacts {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+
+  &__title {
+    width: fit-content;
+    // max-width: 500px;
+    text-transform: uppercase;
+    font-size: em(25);
+    text-align: end;
+    user-select: none;
+    color: $c-white;
+    // -webkit-text-stroke: 0.7px black;
+    text-shadow: 1px 1px 6px black;
+  }
+
+  &__phone {
+    font-size: em(35);
+    color: $c-red;
+    & a {
+    }
+  }
+
+  &__mail {
+    font-size: em(20);
+    color: $c-red;
+    & a {
+    }
+  }
+}

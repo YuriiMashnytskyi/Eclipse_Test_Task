@@ -1,0 +1,16 @@
+.c-employees {
+  &__title {
+    color: $c-red;
+    & h2,
+    h3,
+    h4 {
+      font-weight: $fw-light;
+    }
+    & h2 {
+      line-height: 46px;
+    }
+    & h4 {
+      line-height: 30px;
+    }
+  }
+}

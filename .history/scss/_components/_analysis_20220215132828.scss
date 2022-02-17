@@ -1,0 +1,49 @@
+.c-analysis {
+  &__title {
+    color: $c-red;
+    margin-bottom: 40px;
+    & h2 {
+      font-weight: $fw-light;
+    }
+    & h3 {
+      font-weight: $fw-light;
+    }
+  }
+  &__subtitle {
+    margin: 30px 0 40px 0;
+  }
+
+  &__stats-field {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  &__item {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+
+    &__img {
+      margin-bottom: 25px;
+      min-height: 150px;
+      // width: auto;
+    }
+
+    &__text {
+      max-width: 300px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+
+    // TODO настроить выравниевание по центру родителя и поиграть с шириной, сделать под 340px
+    &__diagram {
+      // align-self: flex-end;
+      width: 320px;
+      // & img {
+      // }
+    }
+  }
+}

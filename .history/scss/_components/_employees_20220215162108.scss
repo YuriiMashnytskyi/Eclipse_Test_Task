@@ -1,0 +1,15 @@
+.c-employees {
+  &__title {
+    color: $c-red;
+    font-weight: $fw-light;
+    & h2 {
+      font-weight: $fw-light;
+    }
+    & h3 {
+      font-weight: $fw-light;
+    }
+    & h4 {
+      font-weight: $fw-light;
+    }
+  }
+}

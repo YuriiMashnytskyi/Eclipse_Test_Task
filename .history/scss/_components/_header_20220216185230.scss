@@ -1,0 +1,67 @@
+// .c-header {
+//   &__wrapper {
+//   }
+// }
+
+.c-banner {
+  position: relative;
+  min-height: 100vh;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./assets/images/banner.jpg);
+    @include backgroundImage;
+    background-attachment: fixed;
+    z-index: -25;
+  }
+
+  &__wrapper {
+    padding: 30px 15px 60px;
+    height: 100%;
+  }
+}
+.c-piar {
+  max-width: 63%;
+  &__slogan {
+    color: $c-red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    user-select: none;
+    margin-bottom: 100px;
+
+    &__text-1 {
+      font-size: em(22);
+      font-weight: bold;
+    }
+    &__text-2 {
+      // font-size: em(30);
+      font-weight: $fw-light;
+    }
+    &__text-3 {
+      font-weight: $fw-bold;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    &__item {
+      flex: 0 0 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 25px;
+
+      &__img {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

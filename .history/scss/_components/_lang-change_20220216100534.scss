@@ -1,0 +1,41 @@
+.c-lang-change {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  font-weight: $fw-light;
+  font-size: em(18);
+  display: flex;
+  flex-flow: row nowrap;
+
+  &__btn {
+    margin-right: 25px;
+
+    & a {
+      color: $c-light-gray;
+
+      // &:link {
+      //   color: $c-light-gray;
+      // }
+      // &:visited {
+      //   color: $c-light-gray;
+      // }
+
+      &:hover {
+        // color: $c-white;
+        font-weight: $fw-bold;
+      }
+      &:focus {
+        // color: $c-white;
+        font-weight: $fw-bold;
+      }
+      &:active {
+        color: $c-white;
+        font-weight: $fw-bold;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

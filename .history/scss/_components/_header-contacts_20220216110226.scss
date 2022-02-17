@@ -1,0 +1,9 @@
+.c-contacts {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+
+  &__title {
+    font-size: em(25);
+  }
+}

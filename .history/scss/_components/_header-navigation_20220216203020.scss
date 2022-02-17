@@ -1,0 +1,34 @@
+.c-header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 4px 0px 4px 0px rgba(1, 1, 1, 0.75);
+}
+
+.c-nav {
+  &__list {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // flex-wrap: wrap;
+
+    // TODO сделать бургер при адаптивности
+    &__item {
+      margin-right: 60px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &__link {
+      color: $c-light-black;
+      &:hover {
+        color: $c-red;
+      }
+    }
+  }
+}
+
+.c-burger {
+  display: none;
+}

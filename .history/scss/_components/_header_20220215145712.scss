@@ -1,0 +1,51 @@
+// .c-header {
+//   &__wrapper {
+//   }
+// }
+
+.c-banner {
+  // background-image: url(./assets/images/banner.jpg);
+  // @include backgroundImage;
+  position: relative;
+  min-height: 100vh;
+  &::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./assets/images/banner.jpg);
+    @include backgroundImage;
+    z-index: -25;
+  }
+
+  &__wrapper {
+    position: relative;
+    padding-top: 30px;
+    height: 100%;
+  }
+}
+
+.c-slogan {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  color: $c-red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: $fw-bold;
+  }
+  &__subtitle-1 {
+    font-size: em(22);
+    font-weight: bold;
+  }
+  &__subtitle-2 {
+    font-size: em(30);
+    font-weight: $fw-light;
+  }
+}
