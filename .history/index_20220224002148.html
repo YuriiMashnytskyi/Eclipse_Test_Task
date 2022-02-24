@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./main.css" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Eclipse</title>
+  </head>
+  <body>
+    <div class="l-common">
+      <!-- ! Start of Header -->
+      <header class="c-header">
+        <div class="c-header__wrapper">
+          <div class="c-banner">
+            <div class="c-banner__wrapper block-size">
+              <div class="e-large-logo">
+                <img
+                  src="./assets/images/large-logo.png"
+                  alt="logo"
+                  class="e-large-logo__img"
+                />
+              </div>
+              <!-- Language change -->
+              <div class="c-lang-change">
+                <ul class="c-lang-change__list">
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>En</span></a>
+                  </li>
+                  <li class="c-lang-change__btn c-lang-change__btn--active">
+                    <a href="#"><span>Ru</span></a>
+                  </li>
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>It</span></a>
+                  </li>
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>De</span></a>
+                  </li>
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>Fr</span></a>
+                  </li>
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>Es</span></a>
+                  </li>
+                  <li class="c-lang-change__btn">
+                    <a href="#"><span>Pt</span></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Contacts -->
+              <div class="c-contacts">
+                <p class="c-contacts__title">
+                  Письменные и устные переводы для вашего бизнеса
+                </p>
+                <div class="c-contacts__phone">
+                  <a href="tel:+74952239226">+7 /495/ 223 92 26</a>
+                </div>
+                <div class="c-contacts__mail">
+                  <a href="mailto:info@buro-eclipse.ru" target="_blank"
+                    >info@buro-eclipse.ru</a
+                  >
+                </div>
+                <button type="button" class="e-btn e-btn--callback">
+                  <span>обратный звонок</span>
+                </button>
+              </div>
+              <!-- ! Bottom part of banner -->
+              <div class="c-bottom-field">
+                <!-- Info about company -->
+                <div class="c-bottom-field__info">
+                  <div class="c-bottom-field__slogan">
+                    <p class="c-bottom-field__slogan__text-1">
+                      ЭКОНОМЬТЕ ДО 70% БЮДЖЕТА НА ПЕРЕВОД
+                    </p>
+                    <h4 class="c-bottom-field__slogan__text-2">
+                      при помощи технологии
+                    </h4>
+                    <h2 class="c-bottom-field__slogan__text-3">
+                      TRANSLATION MEMORY
+                    </h2>
+                  </div>
+                  <!-- Icons with info block -->
+                  <div class="c-bottom-field__stats">
+                    <!-- 1 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/5-years.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Более 5 лет на рынке</p>
+                      </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/iso-certificate.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Сертификат ISO</p>
+                      </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/gala.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Член международной ассоциации GALA</p>
+                      </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/clients.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Более 500 постоянных клиентов</p>
+                      </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/verbal-hours.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Более 12 000 часов устного перевода в год</p>
+                      </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="c-bottom-field__stats__item">
+                      <div class="c-bottom-field__stats__item__img">
+                        <img
+                          src="./assets/images/banner-icons/pages.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="c-bottom-field__stats__item__text">
+                        <p>Более 120 000 переведенных страниц в год</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Form for express order -->
+                <div class="c-bottom-field__express-order">
+                  <div class="c-bottom-field__express-order__wrapper">
+                    <div class="c-bottom-field__express-order__text">
+                      <p>
+                        Нужен срочный перевод контракта или делового письма?
+                        Переговоры с иностранными партнерами перенесли на
+                        сегодняшний вечер, а под рукой нет переводчика?
+                      </p>
+                    </div>
+                    <div class="c-bottom-field__express-order__title">
+                      <p>Решите задачу сейчас:</p>
+                    </div>
+                    <form
+                      class="c-bottom-field__express-order__form"
+                      action="#"
+                      method="get"
+                    >
+                      <input
+                        class="c-bottom-field__express-order__input"
+                        name="express-order-name"
+                        type="text"
+                        placeholder="Введите имя:"
+                        required
+                      />
+                      <input
+                        class="c-bottom-field__express-order__input"
+                        name="express-order-phone"
+                        type="tel"
+                        autocomplete="tel"
+                        placeholder="Введите телефон:"
+                        required
+                      />
+                      <button type="submit" class="e-btn e-btn--express-order">
+                        <span>нужен срочный перевод</span>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- TODO сделать появление сообщения при отправке формы -->
+                  <div class="c-bottom-field__express-order__text-complete">
+                    <p>Спасибо, Ваш запрос отправлен.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Navigation part -->
+          <div class="c-header-navigation block-size">
+            <div class="e-logo">
+              <img
+                src="./assets/images/logo.png"
+                alt="logo"
+                class="e-logo__img"
+              />
+            </div>
+            <nav class="c-nav">
+              <ul class="c-nav__list">
+                <li class="c-nav__list__item">
+                  <a href="" class="c-nav__list__link">Главная</a>
+                </li>
+                <li class="c-nav__list__item">
+                  <a href="" class="c-nav__list__link">Письменные переводы</a>
+                </li>
+                <li class="c-nav__list__item">
+                  <a href="" class="c-nav__list__link">Устные переводы</a>
+                </li>
+                <li class="c-nav__list__item">
+                  <a href="" class="c-nav__list__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Burger -->
+            <div class="c-burger"></div>
+          </div>
+        </div>
+      </header>
+      <!-- End Of Header -->
+      <main class="main">
+        <!-- ! Name background story (Eclipse) -->
+        <div class="c-background-story">
+          <div class="c-background-story__wrapper block-size block-padding">
+            <p class="c-background-story__info c-background-story__position">
+              Eclipse – имя самого быстрого в мире скакуна. Он выиграл все
+              забеги, в которых участвовал. Само появление живой легенды на
+              ипподроме лишало соперников малейших шансов на победу.
+            </p>
+            <p class="c-background-story__info c-background-story__position">
+              Среди наших клиентов есть крупные компании и министерства.
+              Градообразующие предприятия и небольшие фирмы, которые только
+              выходят на международную арену. Всем им важен быстрый и
+              качественный результат.
+            </p>
+            <p class="c-background-story__info c-background-story__position">
+              И мы его гарантируем. Скорость наших переводов обеспечивает
+              команда из более чем 1200 профессиональных лингвистов со всего
+              мира. И оперативность новейших CAT-технологий.
+            </p>
+            <p class="c-background-story__info c-background-story__position">
+              Наша работа – открывающийся перед вами мир финансовых перспектив и
+              международных бизнес-проектов. Мир коммуникаций, не ограниченный
+              языковыми барьерами.
+            </p>
+            <h2 class="c-background-story__slogan c-background-story__position">
+              Eclipse. Вы – впереди.
+            </h2>
+          </div>
+        </div>
+        <!-- ! CAT Translation Memory block -->
+        <div class="c-cat">
+          <div class="c-cat__wrapper block-size block-padding">
+            <div class="c-cat__title">
+              <h3 class="c-cat__title__text-1">CAT–технология</h3>
+              <h2 class="c-cat__title__text-2">Translation Memory</h2>
+              <h4 class="c-cat__title__text-3">
+                СОКРАТИТЕ ДО 70% РАСХОДОВ НА УСЛУГИ ПЕРЕВОДА
+              </h4>
+            </div>
+            <div class="c-cat__info">
+              <p>
+                Наша компания использует самые современные технологии для
+                повышения эффективности работы переводчиков.
+              </p>
+              <p>
+                С технологией <span> Translation Memory </span> вам не придётся
+                платить за многократный перевод повторяющихся фрагментов текста.
+              </p>
+            </div>
+
+            <!-- ! Slider main container -->
+            <div class="cat-swiper swiper">
+              <!-- Additional required wrapper -->
+              <div class="cat-swiper__wrapper swiper-wrapper">
+                <!-- ! Slides -->
+                <!-- 1 -->
+                <div class="cat-swiper__slide swiper-slide">
+                  <div class="cat-swiper__slide__img">
+                    <img src="./assets/images/cat-slides/cat-1.jpg" alt="" />
+                  </div>
+                  <div class="cat-swiper__slide__text">
+                    <div class="cat-swiper__slide__text-1"><p>1</p></div>
+                    <div class="cat-swiper__slide__text-2">
+                      <p>
+                        Наш переводчик выполняет перевод
+                        термина/фразы/предложения
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- 2 -->
+                <div class="cat-swiper__slide swiper-slide">
+                  <div class="cat-swiper__slide__img">
+                    <img src="./assets/images/cat-slides/cat-2.jpg" alt="" />
+                  </div>
+                  <div class="cat-swiper__slide__text"></div>
+                </div>
+                <!-- 3 -->
+                <div class="cat-swiper__slide swiper-slide">
+                  <div class="cat-swiper__slide__img">
+                    <img src="./assets/images/cat-slides/cat-3.jpg" alt="" />
+                  </div>
+                  <div class="cat-swiper__slide__text"></div>
+                </div>
+                <!-- 4 -->
+                <div class="cat-swiper__slide swiper-slide">
+                  <div class="cat-swiper__slide__img">
+                    <img src="./assets/images/cat-slides/cat-4.jpg" alt="" />
+                  </div>
+                  <div class="cat-swiper__slide__text"></div>
+                </div>
+                <!-- 5 -->
+                <div class="cat-swiper__slide swiper-slide">
+                  <div class="cat-swiper__slide__img">
+                    <img src="./assets/images/cat-slides/cat-5.jpg" alt="" />
+                  </div>
+                  <div class="cat-swiper__slide__text"></div>
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="cat-swiper__pagination swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <!-- ! Advantages block -->
+        <div class="c-advantages">
+          <div class="c-advantages__wrapper block-size block-padding">
+            <div class="c-advantages__title">
+              <h4>
+                ОЦЕНИТЕ 3 ПРЕИМУЩЕСТВА, <br />
+                КОТОРЫЕ ВЫ ПОЛУЧАЕТЕ В РЕЗУЛЬТАТЕ:
+              </h4>
+            </div>
+            <div class="c-advantages__container">
+              <div class="c-advantages__items-wrapper">
+                <div class="c-advantages__item">
+                  <div class="c-advantages__item__img">
+                    <svg>
+                      <use xlink:href="./assets/svg/advantages.svg#fly"></use>
+                    </svg>
+                  </div>
+                  <div class="c-advantages__item__text">
+                    <p>
+                      Высокая скорость, недоступная традиционным методикам
+                      перевода
+                    </p>
+                  </div>
+                </div>
+                <div class="c-advantages__item">
+                  <div class="c-advantages__item__img">
+                    <svg>
+                      <use xlink:href="./assets/svg/advantages.svg#stand"></use>
+                    </svg>
+                  </div>
+                  <div class="c-advantages__item__text">
+                    <p>
+                      Стабильно высокое качество, невозможное для машинного
+                      перевода
+                    </p>
+                  </div>
+                </div>
+                <div class="c-advantages__item">
+                  <div class="c-advantages__item__img">
+                    <svg>
+                      <use
+                        xlink:href="./assets/svg/advantages.svg#moneybox"
+                      ></use>
+                    </svg>
+                  </div>
+                  <div class="c-advantages__item__text">
+                    <p>
+                      Экономия! При переводе большого количества текстов, Вы
+                      экономите – до 70% своего бюджета!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="e-btn e-btn--make-order" type="button">
+                <span>Заказать перевод</span>
+              </button>
+            </div>
+          </div>
+          <hr class="e-afterblock-line" />
+        </div>
+        <!-- ! Recomendations block -->
+        <div class="c-recomendations">
+          <div class="c-recomendations__wrapper block-size block-padding">
+            <div class="c-recomendations__title">
+              <div class="c-recomendations__title__percents"><p>73%</p></div>
+              <div class="c-recomendations__title__text">
+                <h2 class="c-recomendations__title__text-1">НОВЫХ КЛИЕНТОВ</h2>
+                <p class="c-recomendations__title__text-2">
+                  приходят к нам по рекомендации
+                </p>
+                <p class="c-recomendations__title__text-3">
+                  Почему же нас рекомендуют?
+                </p>
+              </div>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+          <hr class="e-afterblock-line" />
+        </div>
+        <!-- ! Analysis block -->
+        <div class="c-analysis">
+          <div class="c-analysis-wrapper block-size block-padding">
+            <div class="c-analysis__title">
+              <h2>Анализ</h2>
+              <h3>изменения стоимости для наших заказчиков</h3>
+            </div>
+            <hr class="e-afterblock-line e-afterblock-line--analysis-title" />
+            <div class="c-analysis__subtitle">
+              <p>
+                Мы провели для вас анализ 3-х текстов наших заказчиков,
+                работающих в разных отраслях.
+              </p>
+              <br />
+              <p>
+                Даже при одинаковом объеме текстов стоимость перевода будет
+                разной. Чем чаще повторяются фразы в документах, тем больше
+                экономия.
+              </p>
+            </div>
+            <hr class="e-afterblock-line e-afterblock-line--analysis-title" />
+
+            <div class="c-analysis__stats-field">
+              <div class="c-analysis__item">
+                <div class="c-analysis__item__img">
+                  <svg>
+                    <use
+                      xlink:href="./assets/svg/analysis.svg#advokatskoye-byuro"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="c-analysis__item__text">
+                  <p>
+                    График изменения средней стоимости 1 учетной страницы на
+                    примере Адвокатского Бюро EPAM (юридическая компания)
+                  </p>
+                </div>
+                <!-- <div class="c-analysis__item__diagram"> -->
+                <img
+                  class="c-analysis__item__diagram"
+                  src="./assets/images/analysis/diagram-advokatskoye-byuro.jpg"
+                  alt="Advokatskoye Byuro diagram"
+                />
+                <!-- </div> -->
+              </div>
+              <div class="c-analysis__item">
+                <div class="c-analysis__item__img">
+                  <img src="./assets/images/analysis/LG.png" alt="LG logo" />
+                </div>
+                <div class="c-analysis__item__text">
+                  <p>
+                    График изменения средней стоимости 1 учетной страницы на
+                    примере LG Life Sciences (регистрационные досье)
+                  </p>
+                </div>
+                <!-- <div class="c-analysis__item__diagram"> -->
+                <img
+                  class="c-analysis__item__diagram"
+                  src="./assets/images/analysis/diagram-LG.jpg"
+                  alt="LG diagram"
+                />
+                <!-- </div> -->
+              </div>
+              <div class="c-analysis__item">
+                <div class="c-analysis__item__img">
+                  <svg>
+                    <use xlink:href="./assets/svg/analysis.svg#ardo"></use>
+                  </svg>
+                </div>
+                <div class="c-analysis__item__text">
+                  <p>
+                    График изменения средней стоимости 1 учетной страницы на
+                    примере компании ARDO (инструкции по эксплуатации)
+                  </p>
+                </div>
+                <!-- <div class="c-analysis__item__diagram"> -->
+                <img
+                  class="c-analysis__item__diagram"
+                  src="./assets/images/analysis/diagram-ARDO.jpg"
+                  alt="ARDO diagram"
+                />
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ! Reasons block -->
+        <div class="c-reasons">
+          <div class="c-reasons__wrapper block-size block-padding">
+            <div class="c-reasons__traits">
+              <!-- 1 -->
+              <div class="c-reasons__trait c-reasons__trait--1">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-1.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики-консультанты, которые будут сопровождать вас в
+                    заграничной командировке
+                  </p>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="c-reasons__trait c-reasons__trait--2">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-2.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики-проводники из числа местных жителей, которые
+                    встретят вас после перелета в другую страну, будь то Швеция,
+                    Германия, Китай или Конго
+                  </p>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="c-reasons__trait c-reasons__trait--3">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-3.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики, специaлизирующиеся на конкретных отраслях - от
+                    атомной энергетики до дипломатического протокола
+                  </p>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="c-reasons__trait c-reasons__trait--4">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-4.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики для получасовых переговоров и переводчики для
+                    месячного сопровождения во время визита к вашим зарубежным
+                    партнерам
+                  </p>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="c-reasons__trait c-reasons__trait--5">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-5.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики под конкретный запрос – мужчины и женщины,
+                    молодые и пожилые, брюнеты и блондинки, европейцы и азиаты и
+                    т.д.
+                  </p>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div class="c-reasons__trait c-reasons__trait--6">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-6.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>
+                    Переводчики для срочных мероприятий – у нас есть
+                    специалисты, готовые помочь вам прямо сейчас
+                  </p>
+                </div>
+              </div>
+              <!-- 7 -->
+              <div class="c-reasons__trait c-reasons__trait--7">
+                <div class="c-reasons__trait__front">
+                  <img
+                    src="./assets/images/reasons/reason-7.jpg"
+                    alt="trait-1"
+                  />
+                </div>
+                <div class="c-reasons__trait__back">
+                  <p>Синхронные переводчики и необходимое оборудование</p>
+                </div>
+              </div>
+            </div>
+            <div class="c-reasons__content">
+              <div class="c-reasons__title">
+                <h2>7 причин</h2>
+                <h3>обратиться в Eclipse,</h3>
+                <h4>если вы ищите устного переводчика</h4>
+              </div>
+              <div class="c-reasons__text">
+                <p>
+                  В Eclipse вам подберут квалифицированного переводчика для
+                  любой ситуации
+                </p>
+              </div>
+              <!-- Order form -->
+              <div class="c-reasons__order">
+                <div class="c-reasons__order__wrapper">
+                  <div class="c-reasons__order__text">
+                    <p>Мы предложим вам лучшее решение для вашей задачи:</p>
+                  </div>
+                  <form class="c-reasons__order__form" action="#" method="get">
+                    <input
+                      type="text"
+                      autocomplete="Введите имя:"
+                      class="c-reasons__order__input"
+                    /><input
+                      type="tel"
+                      autocomplete="Введите телефон:"
+                      class="c-reasons__order__input"
+                    /><input
+                      type="email"
+                      autocomplete="Введите e-mail:"
+                      class="c-reasons__order__input"
+                    />
+                  </form>
+                </div>
+                <!-- TODO сделать появление сообщения при отправке формы -->
+                <div class="c-reasons__order__text-complete">
+                  <p>Спасибо, Ваш запрос отправлен.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ! Our employees block -->
+        <div class="c-employees">
+          <div class="c-employees__wrapper block-size block-padding">
+            <div class="c-employees__title">
+              <h3>Наши</h3>
+              <h2>устные</h2>
+              <h4>переводчики</h4>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer class="c-footer">
+        <div id="map"></div>
+      </footer>
+    </div>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Google maps API -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBN1Ldsg9GAAUPQ3fikKgHvhSJyVO37NKM&callback=initMap"
+    ></script>
+    <!-- Main JS file -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.c-lang-change {
+  margin-bottom: 35px;
+  &__list {
+    // position: absolute;
+    // top: 30px;
+    // right: 5px;
+    font-weight: $fw-light;
+    font-size: em(18);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  &__btn {
+    display: block;
+    margin-right: 25px;
+    user-select: none;
+    &--active {
+      color: $c-white;
+      font-weight: $fw-bold;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+
+    & a {
+      color: $c-light-gray;
+
+      &:hover {
+        color: $c-white;
+        font-weight: $fw-bold;
+      }
+      &:focus {
+        color: $c-white;
+        font-weight: $fw-bold;
+      }
+      &:active {
+        color: $c-white;
+        font-weight: $fw-bold;
+      }
+    }
+  }
+}

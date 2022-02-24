@@ -1,0 +1,10 @@
+.cat-swiper {
+  &__slide {
+    &__img {
+      flex: 0 0 42%;
+    }
+    &__text {
+      color: $c-light-black;
+    }
+  }
+}

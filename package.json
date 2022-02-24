@@ -1,0 +1,27 @@
+{
+  "name": "eclipse_test_task",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriiMashnytskyi/Eclipse_Test_Task.git"
+  },
+  "keywords": [
+    "eclipse",
+    "test",
+    "task"
+  ],
+  "author": "Yurii Mashnytskyi y.mashnytskyi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriiMashnytskyi/Eclipse_Test_Task/issues"
+  },
+  "homepage": "https://github.com/YuriiMashnytskyi/Eclipse_Test_Task#readme",
+  "dependencies": {
+    "swiper": "^8.0.6"
+  }
+}

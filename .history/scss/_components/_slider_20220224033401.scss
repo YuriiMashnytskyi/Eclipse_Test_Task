@@ -1,0 +1,23 @@
+.cat-swiper {
+  &__slide {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    &__img {
+      flex: 0 0 42%;
+      & img {
+        width: 100%;
+      }
+    }
+    &__text {
+      flex: 0 0 58%;
+      padding: 40px 30px;
+      color: $c-light-black;
+      &-1 {
+        color: $c-light-gray;
+        font-size: em(60);
+      }
+    }
+  }
+}

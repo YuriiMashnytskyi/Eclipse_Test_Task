@@ -1,0 +1,14 @@
+.cat-swiper {
+  &__slide {
+    display: flex;
+    flex-flow: row nowrap;
+
+    &__img {
+      flex: 0 1 42%;
+    }
+    &__text {
+      flex: 0 1 58%;
+      color: $c-light-black;
+    }
+  }
+}

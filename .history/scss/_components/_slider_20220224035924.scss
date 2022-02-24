@@ -1,0 +1,38 @@
+.cat-swiper {
+  &__slide {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    &__img {
+      flex: 0 0 42%;
+      & img {
+        width: 100%;
+      }
+    }
+    &__text {
+      flex: 0 0 58%;
+      padding: 40px 30px;
+      color: $c-light-black;
+      &-1 {
+        color: $c-light-gray;
+        font-size: em(60);
+        font-weight: $fw-thin;
+        margin-bottom: 40px;
+      }
+      &-2 {
+        font-size: em(20);
+      }
+    }
+  }
+}
+
+.cat-swiper .swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid $c-black;
+}
+
+.cat-swiper .swiper-pagination-bullet-active {
+  background-color: $c-red;
+  border: 2px solid $c-light-black;
+}
